@@ -7,16 +7,11 @@ section{
     padding-bottom: 150px;
     margin-top: 50px;
 }
-.top-banner{
-    background-image: url("background-image");
-    background-repeat: no-repeat;
-}
 .half-width{
     width:40%;
     float: left;
     margin-left: 5%;
     padding-left: 3%;
-    
 }
 .top{
     margin-top: 80px;
@@ -30,7 +25,7 @@ h1{
 }
 .para{
     font-size: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     color: grey;
 }
 .orange-dark{
@@ -50,4 +45,22 @@ h1{
     border-radius: 40px;
     color: white;
     box-shadow: 6px 6px 6px 6px  gray;
+}
+.mid-banner{
+    background-image: url("../images/shapes/Frame 56.jpg");
+    background-repeat: no-repeat;
+    
+}
+.half-width h2{
+    font-size: 40px;
+    font-weight: 700px;
+    color: green;
+
+}
+.space{
+    margin-top: 150px;
+}
+.second{
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
