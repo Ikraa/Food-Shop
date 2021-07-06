@@ -36,7 +36,9 @@ h1{
     color: green;
 }
 .half-width img{
-    width: 100%;
+    max-width: 100%;
+    width: 70%;
+    margin-top: 50px;
 }
 .btn{
     text-decoration: none;
@@ -47,8 +49,9 @@ h1{
     box-shadow: 6px 6px 6px 6px  gray;
 }
 .mid-banner{
-    background-image: url("../images/shapes/Frame 56.jpg");
+    background-image: url("../images/shapes/Frame 59.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .half-width h2{
