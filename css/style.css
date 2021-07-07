@@ -67,22 +67,17 @@ h1{
     padding-top: 20px;
     padding-bottom: 100px;
 }
-.container-part
-{
-    max-width: 100%;
-    width: 100%;
-    margin: auto;
-}
-.recipe p{
+.recipe-section p{
  text-align: center;
  padding-bottom: 20px;
 }
-.recipe h2{
+.recipe-section h2{
     text-align:center;
     font-size: 40px;
     color: #EE32B3FF;
     margin-top: 80px;
 }
+
 .float{
     float:left;
 }
@@ -90,45 +85,57 @@ h1{
     width: 29%;
 }
 .recipe-section img{
-    max-width: 100%;
+    max-width: 99%;
     margin-bottom: 50px;
 }
 .box{
-    margin: 0px 10px;
+    margin: 0px 12px;
     border-radius: 20px;
     padding: 15px 15px;
-    background-color: white;
-    box-shadow: yellow;
-    border: 1px solid;
-
+    border: 1px solid white;
+}
+.recipe-section div
+{
+    box-shadow: 5px 6px 30px gray;
+    height: 100%;
+    margin-bottom: 50px;
+}
+.highlight-1{
+    color:orangered;
 }
 .center{
     text-align: center;
 }
+.followers{
+    
+    margin-left: 10%;
+    height: 180px;
+}
 .followers h1{
-    margin-top:70px;
+    margin: 45px;
     margin-bottom: 10px;
-    color: #09495d;
+    color:darkred;
 }
 .followers p{
     margin-top: 0px;
-    color: gray;
-    margin-bottom: 70px;
+    padding-top: 4%;
+    font-weight: 700;
 }
-.footer{
-
+.footer
+{
     text-align: center;
-    
-    height: 200px;
-    margin-top: px;
-    padding: 100px;
-
+    padding-bottom: 8%;
+    background-color: black;
+    padding-top: 3%;
 }
 .footer h1
+{   color:darkolivegreen;
+    
+}
+.footer p{
+    color: white;
+}
+.highlight-2
 {
     color: burlywood;
-}
-.ending-part{
-    height: 50%;
-    max-width: 100%;
 }
